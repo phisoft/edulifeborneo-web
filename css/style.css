@@ -657,8 +657,8 @@ h5,
 
 @media (max-width: 991.98px) {
   .site-navbar {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -682,9 +682,9 @@ h5,
 
 .site-navbar .site-logo .img-logo {
   max-width: 100%;
-  width: 8.5%;
+  width: 9.5%;
   position: absolute;
-  top: 8px;
+  top: 20px;
   margin: 0 auto;
 }
 
@@ -699,6 +699,7 @@ h5,
     width: 12%;
     position: relative;
     margin: 10px;
+    top: 0px;
   }
 }
 
@@ -1127,8 +1128,9 @@ h5,
 
 @media (max-width: 991.98px) {
   .sticky-wrapper .shrink {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
+    position: relative;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
   }
 }
 
@@ -1621,20 +1623,21 @@ h5,
 }
 
 .logo-center {
-  max-width: 100%;
-  width: 25%;
+  /* max-width: 80%;
+  width: 80%; */
   height: fit-content;
-  margin: auto 20vh;
+  /* margin: auto 18vh; */
   padding: auto 3em;
-  border-radius: 3px;
-  box-shadow: 1px 1px 20px #999999;
+  /* border-radius: 3px; */
+  /* box-shadow: 1px 1px 20px #999999; */
 }
 
 @media (max-width:991px) {
   .logo-center {
     height: fit-content;
-    margin: 35px auto;
-    width: 55%;
+    /* margin: 15px auto; */
+    /* max-width: 55%; */
+    /* width: 55%; */
   }
 }
 
