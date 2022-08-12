@@ -682,9 +682,9 @@ h5,
 
 .site-navbar .site-logo .img-logo {
   max-width: 100%;
-  width: 9.5%;
+  width: 9%;
   position: absolute;
-  top: 20px;
+  top: 3px;
   margin: 0 auto;
 }
 
@@ -696,7 +696,7 @@ h5,
 
   .site-navbar .site-logo .img-logo {
     max-width: 100%;
-    width: 12%;
+    width: 8%;
     position: relative;
     margin: 10px;
     top: 0px;
