@@ -304,3 +304,25 @@ jQuery(document).ready(function($) {
 
 
 });
+
+
+$(document).on("submit", "#data", function(event){
+	event.preventDefault();
+	var flname = $("#fname").val() + " " + $("#lname").val();
+	var dt = flname +  " <" + $("#email").val() + ">"
+	$.ajax({
+		method: 'POST',
+		url: 'https://formsubmit.co/ajax/edulifenorneo@gmail.com',
+		dataType: 'json',
+		accepts: 'application/json',
+		data: {
+			from: dt,
+			message: $("#message").val()
+		},
+		success: function (data){
+		alert("Submitted Successfully");
+		$("#data").trigger('reset');
+		},
+		error: (err) => console.log(err)
+	});
+});
